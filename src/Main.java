@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 // TODO 21 [주석]: DASOM 동아리의 부원을 등록하고 활동을 관리하는 시스템입니다.
 public class Main {
-    // TODO 22 [상수]: 정적 문자열 상수 CLUB_NAME
+    //  TODO 22 [상수]: 정적 문자열 상수 CLUB_NAME
     private static final String CLUB_NAME = "DASOM";
 
     public static void main(String[] args) {

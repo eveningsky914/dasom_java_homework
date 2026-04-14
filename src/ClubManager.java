@@ -4,7 +4,7 @@ import java.util.List;
 // TODO 15 [제네릭]: Member 또는 그 자식들만 들어올 수 있게 타입 파라미터 <T>를 설정하세요.
 public class ClubManager<T extends Member> {
 
-    // TODO 16 [리스트]: T 타입의 객체들을 저장할 members 리스트(ArrayList)를 private으로 선언하고 초기화하세요.
+    //  TODO 16 [리스트]: T 타입의 객체들을 저장할 members 리스트(ArrayList)를 private으로 선언하고 초기화하세요.
     private List<T> members = new ArrayList<>();
 
     public void addMember(T member) throws DuplicateException {

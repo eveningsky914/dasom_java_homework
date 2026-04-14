@@ -1,7 +1,7 @@
 // TODO 10 [상속, 객체지향 이해하기]: Member를 상속(extends)받는 Admin 클래스를 선언하세요.
 public class Admin extends Member {
 
-    // TODO 11 [생성자]: 부모 클래스(Member)의 생성자를 호출하여 초기화하는 생성자를 작성하세요.
+    //  TODO 11 [생성자]: 부모 클래스(Member)의 생성자를 호출하여 초기화하는 생성자를 작성하세요.
     public Admin(String studentName, String studentNumber) {
         super(studentName, studentNumber);
     }

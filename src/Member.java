@@ -4,7 +4,7 @@ public abstract class Member implements RoleAction {
     // TODO 6 [접근 제한자, 자료형, 변수, 변수 이름 규칙]: 자식 클래스에서 접근 가능하도록 protected로 이름과 학번 변수를 문자열(String)로 선언하세요. 카멜 케이스를 지켜주세요.
     protected String studentName;
     protected String studentNumber;
-    // TODO 7 [생성자]: 이름과 학번을 매개변수로 받아 초기화하는 생성자를 작성하세요.
+    //  TODO 7 [생성자]: 이름과 학번을 매개변수로 받아 초기화하는 생성자를 작성하세요.
     public Member(String studentName, String studentNumber) {
         this.studentName = studentName;
         this.studentNumber = studentNumber;
